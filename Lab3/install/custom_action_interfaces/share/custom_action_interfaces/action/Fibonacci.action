@@ -1,8 +1,0 @@
-# Goal Service Request  
-int32 order
----
-# Result Service Response
-int32[] sequence
----
-# Feedback topic
-int32[] partial_sequence
