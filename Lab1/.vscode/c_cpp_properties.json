@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "ROS 2 - Jazzy Distrobox",
+            "includePath": [
+                "${workspaceFolder}/**",
+                // 1. Percorso ROS 2 base (per rclcpp.hpp)
+                "/opt/ros/jazzy/include/**", 
+                // 2. Percorso del tuo workspace (per i messaggi generati)
+                "${workspaceFolder}/install/**" 
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

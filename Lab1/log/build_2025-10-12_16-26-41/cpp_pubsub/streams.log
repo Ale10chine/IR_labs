@@ -1,0 +1,56 @@
+[0.012s] Invoking command in '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CXXFLAGS=-I/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 /usr/bin/cmake /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/install/cpp_pubsub
+[0.043s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.151s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.328s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.512s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.530s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.698s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.783s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.812s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.829s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.911s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.930s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.039s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.046s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.046s] -- Configured cppcheck include dirs: 
+[1.046s] -- Configured cppcheck exclude dirs and/or files: 
+[1.053s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.053s] -- Configured cpplint exclude dirs and/or files: 
+[1.056s] -- Added test 'lint_cmake' to check CMake code style
+[1.064s] -- Added test 'uncrustify' to check C / C++ code style
+[1.065s] -- Configured uncrustify additional arguments: 
+[1.066s] -- Added test 'xmllint' to check XML markup files
+[1.074s] -- Configuring done (1.0s)
+[1.085s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[1.085s]   Cannot find source file:
+[1.085s] 
+[1.086s]     src/publisher_member_function.cpp
+[1.086s] 
+[1.087s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.087s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.087s]   .f95 .f03 .hip .ispc
+[1.088s] 
+[1.088s] [0m
+[1.089s] [31mCMake Error at CMakeLists.txt:30 (add_executable):
+[1.089s]   Cannot find source file:
+[1.090s] 
+[1.090s]     src/subscriber_member_function.cpp
+[1.090s] 
+[1.091s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.091s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.092s]   .f95 .f03 .hip .ispc
+[1.092s] 
+[1.093s] [0m
+[1.093s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[1.093s]   No SOURCES given to target: talker
+[1.094s] 
+[1.094s] [0m
+[1.095s] [31mCMake Error at CMakeLists.txt:30 (add_executable):
+[1.095s]   No SOURCES given to target: listener
+[1.095s] 
+[1.096s] [0m
+[1.096s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.098s] Invoked command in '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CXXFLAGS=-I/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 /usr/bin/cmake /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/install/cpp_pubsub

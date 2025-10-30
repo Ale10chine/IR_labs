@@ -1,0 +1,31 @@
+[ 25%] Built target fibonacci_action_client
+[ 50%] Built target fibonacci_action_server
+[ 62%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[ 87%] Built target action_server
+[100%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[100%] Built target action_client
+-- Install configuration: ""
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/lib/custom_action_cpp/fibonacci_action_server
+-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/lib/libaction_server.so
+-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/lib/libaction_server.so" to ""
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/lib/custom_action_cpp/fibonacci_action_client
+-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/lib/libaction_client.so
+-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/lib/libaction_client.so" to ""
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/ament_index/resource_index/package_run_dependencies/custom_action_cpp
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/ament_index/resource_index/parent_prefix_path/custom_action_cpp
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/environment/path.sh
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/environment/path.dsv
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/local_setup.bash
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/local_setup.sh
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/local_setup.zsh
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/local_setup.dsv
+-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/package.dsv
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/ament_index/resource_index/packages/custom_action_cpp
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/ament_index/resource_index/rclcpp_components/custom_action_cpp
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/cmake/custom_action_cppConfig.cmake
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/cmake/custom_action_cppConfig-version.cmake
+-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/install/custom_action_cpp/share/custom_action_cpp/package.xml

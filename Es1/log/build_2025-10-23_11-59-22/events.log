@@ -1,0 +1,318 @@
+[0.000000] (-) TimerEvent: {}
+[0.000289] (-) JobUnselected: {'identifier': 'cpp_pubsub_custom_msg'}
+[0.000472] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000737] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.011600] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.014880] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces'], 'cwd': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces', 'env': OrderedDict({'TMUX': '/tmp/tmux-501/default,1873,0', 'USER': 'alessandrochinello', 'CXXFLAGS': '-I/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4', 'HOSTNAME': 'MacBook-Air-di-Alessandro-7.local', 'LD_LIBRARY_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '5', 'XDG_CACHE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.cache', 'HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros', 'OLDPWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab', 'TERM_PROGRAM_VERSION': '3.4', 'LDFLAGS': '-L/opt/homebrew/Cellar/opencv/4.11.0_1/lib -L/opt/homebrew/opt/llvm/lib', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'XDG_STATE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/state', 'COLORTERM': 'truecolor', 'LaunchInstanceID': '49BAB325-4A13-4870-AAB0-F2FD33D11C8D', 'container': 'podman', 'CPLUS_INCLUDE_PATH': '/Users/alessandrochinello/Desktop/Unipd/3°ANNO/II SEMESTRE/TESI DI LAUREA TRIENNALE/Thesis Project/include:', 'INFOPATH': '/opt/homebrew/share/info:', 'ROS_DISTRO': 'jazzy', 'TMPDIR': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/', 'COLCON_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install', 'ALACRITTY_SOCKET': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.sock', 'LOGNAME': 'alessandrochinello', 'WINDOWID': '5658133184', '_': '/usr/bin/colcon', 'PKG_CONFIG_PATH': '/opt/homebrew/lib/pkgconfig:', 'ROS_VERSION': '2', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'ALACRITTY_LOG': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.log', 'TERM': 'tmux-256color', 'PATH': '/opt/ros/jazzy/bin:/opt/homebrew/bin:/opt/homebrew/opt/llvm/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin', 'COMMAND_MODE': 'unix2003', 'DISTROBOX_HOST_HOME': '/Users/alessandrochinello', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'tmux', 'XDG_CONFIG_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.config', 'XDG_DATA_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/share', 'AMENT_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy', 'CPPFLAGS': '-I/opt/homebrew/opt/llvm/include', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.suDb8diIdo/Listeners', 'SHELL': '/usr/bin/zsh', 'ALACRITTY_WINDOW_ID': '5658133184', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'CONTAINER_ID': 'ubuntu', 'PWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'SECURITYSESSIONID': '186a3', 'XPC_FLAGS': '0x0', 'COLCON': '1', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'XPC_SERVICE_NAME': '0'}), 'shell': False}
+[0.099711] (-) TimerEvent: {}
+[0.200290] (-) TimerEvent: {}
+[0.207169] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300994] (-) TimerEvent: {}
+[0.373740] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.397156] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401052] (-) TimerEvent: {}
+[0.501455] (-) TimerEvent: {}
+[0.544118] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.577665] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.578477] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.579318] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.591557] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601547] (-) TimerEvent: {}
+[0.704557] (-) TimerEvent: {}
+[0.738923] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.776221] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.776995] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.778260] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.789095] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.804641] (-) TimerEvent: {}
+[0.905013] (-) TimerEvent: {}
+[0.965046] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.005391] (-) TimerEvent: {}
+[1.108012] (-) TimerEvent: {}
+[1.130013] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.144369] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.208883] (-) TimerEvent: {}
+[1.309449] (-) TimerEvent: {}
+[1.310572] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.395100] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.412966] (-) TimerEvent: {}
+[1.513355] (-) TimerEvent: {}
+[1.613769] (-) TimerEvent: {}
+[1.714268] (-) TimerEvent: {}
+[1.815013] (-) TimerEvent: {}
+[1.915387] (-) TimerEvent: {}
+[1.953417] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.015508] (-) TimerEvent: {}
+[2.116654] (-) TimerEvent: {}
+[2.217005] (-) TimerEvent: {}
+[2.317436] (-) TimerEvent: {}
+[2.381151] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.417851] (-) TimerEvent: {}
+[2.518776] (-) TimerEvent: {}
+[2.619984] (-) TimerEvent: {}
+[2.721011] (-) TimerEvent: {}
+[2.821450] (-) TimerEvent: {}
+[2.911221] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.917597] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.921622] (-) TimerEvent: {}
+[3.024272] (-) TimerEvent: {}
+[3.037237] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.125721] (-) TimerEvent: {}
+[3.226175] (-) TimerEvent: {}
+[3.328000] (-) TimerEvent: {}
+[3.428484] (-) TimerEvent: {}
+[3.505561] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.528711] (-) TimerEvent: {}
+[3.567895] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.628828] (-) TimerEvent: {}
+[3.664524] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.683719] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.714557] (interfaces) StdoutLine: {'line': b'-- Configuring done (3.7s)\n'}
+[3.728954] (-) TimerEvent: {}
+[3.829319] (-) TimerEvent: {}
+[3.929694] (-) TimerEvent: {}
+[3.980466] (interfaces) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[4.030487] (-) TimerEvent: {}
+[4.049605] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces\n'}
+[4.056189] (interfaces) CommandEnded: {'returncode': 0}
+[4.059077] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[4.059247] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces', 'env': OrderedDict({'TMUX': '/tmp/tmux-501/default,1873,0', 'USER': 'alessandrochinello', 'CXXFLAGS': '-I/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4', 'HOSTNAME': 'MacBook-Air-di-Alessandro-7.local', 'LD_LIBRARY_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '5', 'XDG_CACHE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.cache', 'HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros', 'OLDPWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab', 'TERM_PROGRAM_VERSION': '3.4', 'LDFLAGS': '-L/opt/homebrew/Cellar/opencv/4.11.0_1/lib -L/opt/homebrew/opt/llvm/lib', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'XDG_STATE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/state', 'COLORTERM': 'truecolor', 'LaunchInstanceID': '49BAB325-4A13-4870-AAB0-F2FD33D11C8D', 'container': 'podman', 'CPLUS_INCLUDE_PATH': '/Users/alessandrochinello/Desktop/Unipd/3°ANNO/II SEMESTRE/TESI DI LAUREA TRIENNALE/Thesis Project/include:', 'INFOPATH': '/opt/homebrew/share/info:', 'ROS_DISTRO': 'jazzy', 'TMPDIR': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/', 'COLCON_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install', 'ALACRITTY_SOCKET': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.sock', 'LOGNAME': 'alessandrochinello', 'WINDOWID': '5658133184', '_': '/usr/bin/colcon', 'PKG_CONFIG_PATH': '/opt/homebrew/lib/pkgconfig:', 'ROS_VERSION': '2', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'ALACRITTY_LOG': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.log', 'TERM': 'tmux-256color', 'PATH': '/opt/ros/jazzy/bin:/opt/homebrew/bin:/opt/homebrew/opt/llvm/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin', 'COMMAND_MODE': 'unix2003', 'DISTROBOX_HOST_HOME': '/Users/alessandrochinello', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'tmux', 'XDG_CONFIG_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.config', 'XDG_DATA_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/share', 'AMENT_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy', 'CPPFLAGS': '-I/opt/homebrew/opt/llvm/include', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.suDb8diIdo/Listeners', 'SHELL': '/usr/bin/zsh', 'ALACRITTY_WINDOW_ID': '5658133184', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'CONTAINER_ID': 'ubuntu', 'PWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'SECURITYSESSIONID': '186a3', 'XPC_FLAGS': '0x0', 'COLCON': '1', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'XPC_SERVICE_NAME': '0'}), 'shell': False}
+[4.108840] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.117891] (interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_interfaces\n'}
+[4.130594] (-) TimerEvent: {}
+[4.231230] (-) TimerEvent: {}
+[4.301079] (interfaces) StdoutLine: {'line': b'[  2%] Built target interfaces__rosidl_generator_type_description\n'}
+[4.315545] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.316523] (interfaces) StdoutLine: {'line': b'creating interfaces.egg-info\n'}
+[4.317726] (interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.329971] (interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.331312] (-) TimerEvent: {}
+[4.332353] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[4.334171] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[4.335748] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[4.336920] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[4.385571] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[4.387584] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[4.429123] (interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[4.431510] (-) TimerEvent: {}
+[4.536148] (-) TimerEvent: {}
+[4.637077] (-) TimerEvent: {}
+[4.703220] (interfaces) StdoutLine: {'line': b'[  8%] Built target interfaces__cpp\n'}
+[4.736309] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/cstm_inforobot__description.c.o\x1b[0m\n'}
+[4.737352] (-) TimerEvent: {}
+[4.737646] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/cstm_inforobot__functions.c.o\x1b[0m\n'}
+[4.739864] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/cstm_inforobot__type_support.c.o\x1b[0m\n'}
+[4.827729] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.837490] (-) TimerEvent: {}
+[4.879859] (interfaces) StdoutLine: {'line': b'[ 20%] Built target interfaces__rosidl_generator_c\n'}
+[4.894689] (interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.896303] (interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.899442] (interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.900189] (interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.937595] (-) TimerEvent: {}
+[5.038157] (-) TimerEvent: {}
+[5.138730] (-) TimerEvent: {}
+[5.225489] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/cstm_inforobot__type_support.cpp.o\x1b[0m\n'}
+[5.238869] (-) TimerEvent: {}
+[5.259673] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/cstm_inforobot__type_support.c.o\x1b[0m\n'}
+[5.280430] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/cstm_inforobot__type_support.cpp.o\x1b[0m\n'}
+[5.295393] (interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/cstm_inforobot__type_support_c.cpp.o\x1b[0m\n'}
+[5.339058] (-) TimerEvent: {}
+[5.352998] (interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.357608] (interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.412215] (interfaces) StdoutLine: {'line': b'[ 50%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[5.422684] (interfaces) StdoutLine: {'line': b'[ 50%] Built target interfaces__rosidl_typesupport_c\n'}
+[5.431229] (interfaces) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.439170] (-) TimerEvent: {}
+[5.440124] (interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.539493] (-) TimerEvent: {}
+[5.641017] (-) TimerEvent: {}
+[5.741787] (-) TimerEvent: {}
+[5.742428] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/cstm_inforobot__type_support.cpp.o\x1b[0m\n'}
+[5.804193] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/cstm_inforobot__type_support.cpp.o\x1b[0m\n'}
+[5.841967] (-) TimerEvent: {}
+[5.943978] (-) TimerEvent: {}
+[6.045873] (-) TimerEvent: {}
+[6.149027] (-) TimerEvent: {}
+[6.249722] (-) TimerEvent: {}
+[6.254191] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.257210] (interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.349864] (-) TimerEvent: {}
+[6.380539] (interfaces) StdoutLine: {'line': b'[ 67%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.381367] (interfaces) StdoutLine: {'line': b'[ 67%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.450008] (-) TimerEvent: {}
+[6.454105] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.495159] (interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.504575] (interfaces) StdoutLine: {'line': b'[ 73%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[6.551028] (-) TimerEvent: {}
+[6.567289] (interfaces) StdoutLine: {'line': b'[ 73%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.588657] (interfaces) StdoutLine: {'line': b'[ 73%] Built target interfaces\n'}
+[6.611306] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.651168] (-) TimerEvent: {}
+[6.756130] (-) TimerEvent: {}
+[6.856992] (-) TimerEvent: {}
+[6.859182] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__py\n'}
+[6.881441] (interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_cstm_inforobot_s.c.o\x1b[0m\n'}
+[6.957207] (-) TimerEvent: {}
+[7.039250] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.057394] (-) TimerEvent: {}
+[7.083040] (interfaces) StdoutLine: {'line': b'[ 82%] Built target interfaces__rosidl_generator_py\n'}
+[7.106547] (interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.108017] (interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.109378] (interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.157878] (-) TimerEvent: {}
+[7.244682] (interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.255068] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.258084] (-) TimerEvent: {}
+[7.259000] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.291449] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_c\n'}
+[7.305916] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[7.306975] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_introspection_c\n'}
+[7.323600] (interfaces) CommandEnded: {'returncode': 0}
+[7.326356] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[7.335659] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces'], 'cwd': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces', 'env': OrderedDict({'TMUX': '/tmp/tmux-501/default,1873,0', 'USER': 'alessandrochinello', 'CXXFLAGS': '-I/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4', 'HOSTNAME': 'MacBook-Air-di-Alessandro-7.local', 'LD_LIBRARY_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '5', 'XDG_CACHE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.cache', 'HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros', 'OLDPWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab', 'TERM_PROGRAM_VERSION': '3.4', 'LDFLAGS': '-L/opt/homebrew/Cellar/opencv/4.11.0_1/lib -L/opt/homebrew/opt/llvm/lib', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'XDG_STATE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/state', 'COLORTERM': 'truecolor', 'LaunchInstanceID': '49BAB325-4A13-4870-AAB0-F2FD33D11C8D', 'container': 'podman', 'CPLUS_INCLUDE_PATH': '/Users/alessandrochinello/Desktop/Unipd/3°ANNO/II SEMESTRE/TESI DI LAUREA TRIENNALE/Thesis Project/include:', 'INFOPATH': '/opt/homebrew/share/info:', 'ROS_DISTRO': 'jazzy', 'TMPDIR': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/', 'COLCON_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install', 'ALACRITTY_SOCKET': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.sock', 'LOGNAME': 'alessandrochinello', 'WINDOWID': '5658133184', '_': '/usr/bin/colcon', 'PKG_CONFIG_PATH': '/opt/homebrew/lib/pkgconfig:', 'ROS_VERSION': '2', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'ALACRITTY_LOG': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.log', 'TERM': 'tmux-256color', 'PATH': '/opt/ros/jazzy/bin:/opt/homebrew/bin:/opt/homebrew/opt/llvm/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin', 'COMMAND_MODE': 'unix2003', 'DISTROBOX_HOST_HOME': '/Users/alessandrochinello', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'tmux', 'XDG_CONFIG_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.config', 'XDG_DATA_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/share', 'AMENT_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy', 'CPPFLAGS': '-I/opt/homebrew/opt/llvm/include', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.suDb8diIdo/Listeners', 'SHELL': '/usr/bin/zsh', 'ALACRITTY_WINDOW_ID': '5658133184', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'CONTAINER_ID': 'ubuntu', 'PWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'SECURITYSESSIONID': '186a3', 'XPC_FLAGS': '0x0', 'COLCON': '1', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'XPC_SERVICE_NAME': '0'}), 'shell': False}
+[7.344371] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.347517] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[7.352118] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/msg/CstmInforobot.json\n'}
+[7.354722] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces\n'}
+[7.356860] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.358328] (-) TimerEvent: {}
+[7.358638] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.361841] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.363619] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__type_support.h\n'}
+[7.366181] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__functions.h\n'}
+[7.369137] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__description.c\n'}
+[7.371741] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__type_support.c\n'}
+[7.374404] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__functions.c\n'}
+[7.377306] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__struct.h\n'}
+[7.379948] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/cstm_inforobot.h\n'}
+[7.383566] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[7.385803] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[7.389372] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[7.394795] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[7.395498] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces\n'}
+[7.396137] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.396847] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.397525] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__rosidl_typesupport_fastrtps_c.h\n'}
+[7.399534] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.402520] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.407880] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.408724] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces\n'}
+[7.409528] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.410401] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.411177] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__type_support.c\n'}
+[7.411971] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__rosidl_typesupport_introspection_c.h\n'}
+[7.413715] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.417032] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.423292] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.424112] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[7.429773] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.430701] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces\n'}
+[7.431407] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.432140] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.432980] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__traits.hpp\n'}
+[7.435118] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__struct.hpp\n'}
+[7.438565] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__type_support.hpp\n'}
+[7.441565] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__builder.hpp\n'}
+[7.444752] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.447826] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/cstm_inforobot.hpp\n'}
+[7.450791] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces\n'}
+[7.451610] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.452345] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.455296] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.456054] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[7.458123] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.458974] (-) TimerEvent: {}
+[7.461777] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.468246] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.469222] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces\n'}
+[7.470191] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.470984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.471915] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__type_support.cpp\n'}
+[7.474881] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces/interfaces/msg/detail/cstm_inforobot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.478675] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.486183] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.487060] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[7.493872] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.494897] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[7.497907] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[7.501688] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info\n'}
+[7.504694] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[7.508153] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.511693] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[7.515308] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.518965] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces\n'}
+[7.521232] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.525129] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.529086] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.534182] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/msg\n'}
+[7.536592] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py\n'}
+[7.540190] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_cstm_inforobot_s.c\n'}
+[7.543950] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_cstm_inforobot.py\n'}
+[7.547742] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.552759] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.556155] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py\n'}
+[7.558779] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so\n'}
+[7.559798] (-) TimerEvent: {}
+[7.616345] (interfaces) StdoutLine: {'line': b"Listing '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces'...\n"}
+[7.617186] (interfaces) StdoutLine: {'line': b"Compiling '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py'...\n"}
+[7.617908] (interfaces) StdoutLine: {'line': b"Listing '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...\n"}
+[7.618720] (interfaces) StdoutLine: {'line': b"Compiling '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py'...\n"}
+[7.619470] (interfaces) StdoutLine: {'line': b"Compiling '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_cstm_inforobot.py'...\n"}
+[7.624712] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.630395] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.631554] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.636955] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.638346] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so\n'}
+[7.643625] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[7.644351] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[7.649621] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[7.650264] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/msg/CstmInforobot.idl\n'}
+[7.653074] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/msg/CstmInforobot.msg\n'}
+[7.655513] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include\n'}
+[7.656363] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/include/interfaces\n'}
+[7.657879] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[7.660116] (-) TimerEvent: {}
+[7.662073] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[7.664780] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[7.666966] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[7.669616] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/environment/path.sh\n'}
+[7.671765] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[7.674448] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/local_setup.bash\n'}
+[7.677186] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/local_setup.sh\n'}
+[7.680186] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[7.682919] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[7.685596] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/package.dsv\n'}
+[7.689336] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[7.692819] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.695889] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.698688] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.701877] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.704626] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.707788] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.710522] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.713583] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.716356] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.719679] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.722748] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.725619] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.728658] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.731377] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.734378] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.737099] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.739809] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.742517] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.745332] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.748103] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.751165] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.754201] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.760136] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.762661] (-) TimerEvent: {}
+[7.766827] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.770023] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[7.772818] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[7.775715] (interfaces) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/package.xml\n'}
+[7.781251] (interfaces) CommandEnded: {'returncode': 0}
+[7.863094] (-) TimerEvent: {}
+[7.865503] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[7.868223] (-) EventReactorShutdown: {}

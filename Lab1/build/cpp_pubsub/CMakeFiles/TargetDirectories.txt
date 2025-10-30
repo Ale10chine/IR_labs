@@ -1,0 +1,11 @@
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/uninstall.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/talker.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/listener.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/test.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/edit_cache.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/rebuild_cache.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/list_install_components.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/install.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/install/local.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub/CMakeFiles/install/strip.dir

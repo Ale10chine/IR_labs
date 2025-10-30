@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000296] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000544] (cpp_pubsub_custom_msg) JobQueued: {'identifier': 'cpp_pubsub_custom_msg', 'dependencies': OrderedDict()}
+[0.000845] (cpp_pubsub_custom_msg) JobStarted: {'identifier': 'cpp_pubsub_custom_msg'}
+[0.014335] (cpp_pubsub_custom_msg) JobProgress: {'identifier': 'cpp_pubsub_custom_msg', 'progress': 'cmake'}
+[0.017674] (cpp_pubsub_custom_msg) Command: {'cmd': ['/usr/bin/cmake', '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/src/cpp_pubsub_custom_msg', '-DCMAKE_INSTALL_PREFIX=/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg'], 'cwd': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg', 'env': OrderedDict({'TMUX': '/tmp/tmux-501/default,1873,0', 'USER': 'alessandrochinello', 'CXXFLAGS': '-I/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4', 'HOSTNAME': 'MacBook-Air-di-Alessandro-7.local', 'LD_LIBRARY_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '5', 'XDG_CACHE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.cache', 'HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros', 'OLDPWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab', 'TERM_PROGRAM_VERSION': '3.4', 'LDFLAGS': '-L/opt/homebrew/Cellar/opencv/4.11.0_1/lib -L/opt/homebrew/opt/llvm/lib', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'XDG_STATE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/state', 'COLORTERM': 'truecolor', 'LaunchInstanceID': '49BAB325-4A13-4870-AAB0-F2FD33D11C8D', 'container': 'podman', 'CPLUS_INCLUDE_PATH': '/Users/alessandrochinello/Desktop/Unipd/3°ANNO/II SEMESTRE/TESI DI LAUREA TRIENNALE/Thesis Project/include:', 'INFOPATH': '/opt/homebrew/share/info:', 'ROS_DISTRO': 'jazzy', 'TMPDIR': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/', 'COLCON_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install', 'ALACRITTY_SOCKET': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.sock', 'LOGNAME': 'alessandrochinello', 'WINDOWID': '5658133184', '_': '/usr/bin/colcon', 'PKG_CONFIG_PATH': '/opt/homebrew/lib/pkgconfig:', 'ROS_VERSION': '2', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'ALACRITTY_LOG': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.log', 'TERM': 'tmux-256color', 'PATH': '/opt/ros/jazzy/bin:/opt/homebrew/bin:/opt/homebrew/opt/llvm/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin', 'COMMAND_MODE': 'unix2003', 'DISTROBOX_HOST_HOME': '/Users/alessandrochinello', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'tmux', 'XDG_CONFIG_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.config', 'XDG_DATA_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/share', 'AMENT_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy', 'CPPFLAGS': '-I/opt/homebrew/opt/llvm/include', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.suDb8diIdo/Listeners', 'SHELL': '/usr/bin/zsh', 'ALACRITTY_WINDOW_ID': '5658133184', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'CONTAINER_ID': 'ubuntu', 'PWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'SECURITYSESSIONID': '186a3', 'XPC_FLAGS': '0x0', 'COLCON': '1', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'XPC_SERVICE_NAME': '0'}), 'shell': False}
+[0.099577] (-) TimerEvent: {}
+[0.119756] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199730] (-) TimerEvent: {}
+[0.204218] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.223737] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299874] (-) TimerEvent: {}
+[0.379605] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400056] (-) TimerEvent: {}
+[0.412398] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.413223] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.413900] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.426827] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500317] (-) TimerEvent: {}
+[0.584786] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600529] (-) TimerEvent: {}
+[0.617660] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.618403] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.619106] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.632007] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.705664] (-) TimerEvent: {}
+[0.806074] (-) TimerEvent: {}
+[0.843070] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.911190] (-) TimerEvent: {}
+[1.016656] (-) TimerEvent: {}
+[1.060637] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.119766] (-) TimerEvent: {}
+[1.149854] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.177552] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.208587] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.222370] (-) TimerEvent: {}
+[1.243465] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.324571] (-) TimerEvent: {}
+[1.381649] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.388870] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.425756] (-) TimerEvent: {}
+[1.514966] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.526426] (-) TimerEvent: {}
+[1.551071] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.578332] (cpp_pubsub_custom_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.626513] (-) TimerEvent: {}
+[1.718768] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/share/interfaces/cmake)\n'}
+[1.726598] (-) TimerEvent: {}
+[1.758420] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.826771] (-) TimerEvent: {}
+[1.927214] (-) TimerEvent: {}
+[1.938249] (cpp_pubsub_custom_msg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.938993] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.939589] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.944984] (cpp_pubsub_custom_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.959141] (cpp_pubsub_custom_msg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.959857] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.963213] (cpp_pubsub_custom_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.977170] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[2.027563] (-) TimerEvent: {}
+[2.054224] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.081293] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Build files have been written to: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg\n'}
+[2.088967] (cpp_pubsub_custom_msg) CommandEnded: {'returncode': 0}
+[2.089934] (cpp_pubsub_custom_msg) JobProgress: {'identifier': 'cpp_pubsub_custom_msg', 'progress': 'build'}
+[2.090939] (cpp_pubsub_custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg', '--', '-j4', '-l4'], 'cwd': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg', 'env': OrderedDict({'TMUX': '/tmp/tmux-501/default,1873,0', 'USER': 'alessandrochinello', 'CXXFLAGS': '-I/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4', 'HOSTNAME': 'MacBook-Air-di-Alessandro-7.local', 'LD_LIBRARY_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '5', 'XDG_CACHE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.cache', 'HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros', 'OLDPWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab', 'TERM_PROGRAM_VERSION': '3.4', 'LDFLAGS': '-L/opt/homebrew/Cellar/opencv/4.11.0_1/lib -L/opt/homebrew/opt/llvm/lib', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'XDG_STATE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/state', 'COLORTERM': 'truecolor', 'LaunchInstanceID': '49BAB325-4A13-4870-AAB0-F2FD33D11C8D', 'container': 'podman', 'CPLUS_INCLUDE_PATH': '/Users/alessandrochinello/Desktop/Unipd/3°ANNO/II SEMESTRE/TESI DI LAUREA TRIENNALE/Thesis Project/include:', 'INFOPATH': '/opt/homebrew/share/info:', 'ROS_DISTRO': 'jazzy', 'TMPDIR': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/', 'COLCON_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install', 'ALACRITTY_SOCKET': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.sock', 'LOGNAME': 'alessandrochinello', 'WINDOWID': '5658133184', '_': '/usr/bin/colcon', 'PKG_CONFIG_PATH': '/opt/homebrew/lib/pkgconfig:', 'ROS_VERSION': '2', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'ALACRITTY_LOG': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.log', 'TERM': 'tmux-256color', 'PATH': '/opt/ros/jazzy/bin:/opt/homebrew/bin:/opt/homebrew/opt/llvm/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin', 'COMMAND_MODE': 'unix2003', 'DISTROBOX_HOST_HOME': '/Users/alessandrochinello', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'tmux', 'XDG_CONFIG_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.config', 'XDG_DATA_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/share', 'AMENT_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy', 'CPPFLAGS': '-I/opt/homebrew/opt/llvm/include', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.suDb8diIdo/Listeners', 'SHELL': '/usr/bin/zsh', 'ALACRITTY_WINDOW_ID': '5658133184', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'CONTAINER_ID': 'ubuntu', 'PWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'SECURITYSESSIONID': '186a3', 'XPC_FLAGS': '0x0', 'COLCON': '1', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'XPC_SERVICE_NAME': '0'}), 'shell': False}
+[2.127706] (-) TimerEvent: {}
+[2.163375] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/charge_station.dir/src/charge_station.cpp.o\x1b[0m\n'}
+[2.164637] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot.dir/src/robot.cpp.o\x1b[0m\n'}
+[2.227844] (-) TimerEvent: {}
+[2.328304] (-) TimerEvent: {}
+[2.428809] (-) TimerEvent: {}
+[2.529372] (-) TimerEvent: {}
+[2.630343] (-) TimerEvent: {}
+[2.732059] (-) TimerEvent: {}
+[2.837605] (-) TimerEvent: {}
+[2.938622] (-) TimerEvent: {}
+[3.039202] (-) TimerEvent: {}
+[3.140739] (-) TimerEvent: {}
+[3.241418] (-) TimerEvent: {}
+[3.343326] (-) TimerEvent: {}
+[3.444678] (-) TimerEvent: {}
+[3.546616] (-) TimerEvent: {}
+[3.648016] (-) TimerEvent: {}
+[3.748732] (-) TimerEvent: {}
+[3.850694] (-) TimerEvent: {}
+[3.951633] (-) TimerEvent: {}
+[4.056350] (-) TimerEvent: {}
+[4.160786] (-) TimerEvent: {}
+[4.261696] (-) TimerEvent: {}
+[4.362315] (-) TimerEvent: {}
+[4.467320] (-) TimerEvent: {}
+[4.569027] (-) TimerEvent: {}
+[4.674058] (-) TimerEvent: {}
+[4.778412] (-) TimerEvent: {}
+[4.883528] (-) TimerEvent: {}
+[4.989022] (-) TimerEvent: {}
+[5.093390] (-) TimerEvent: {}
+[5.198548] (-) TimerEvent: {}
+[5.302353] (-) TimerEvent: {}
+[5.407378] (-) TimerEvent: {}
+[5.512357] (-) TimerEvent: {}
+[5.617410] (-) TimerEvent: {}
+[5.722505] (-) TimerEvent: {}
+[5.827606] (-) TimerEvent: {}
+[5.932697] (-) TimerEvent: {}
+[6.037800] (-) TimerEvent: {}
+[6.138530] (-) TimerEvent: {}
+[6.239193] (-) TimerEvent: {}
+[6.344082] (-) TimerEvent: {}
+[6.449116] (-) TimerEvent: {}
+[6.554139] (-) TimerEvent: {}
+[6.654724] (-) TimerEvent: {}
+[6.760295] (-) TimerEvent: {}
+[6.860883] (-) TimerEvent: {}
+[6.907080] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable robot\x1b[0m\n'}
+[6.961155] (-) TimerEvent: {}
+[7.061673] (-) TimerEvent: {}
+[7.162242] (-) TimerEvent: {}
+[7.221142] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'[ 75%] Built target robot\n'}
+[7.262853] (-) TimerEvent: {}
+[7.363796] (-) TimerEvent: {}
+[7.464601] (-) TimerEvent: {}
+[7.565661] (-) TimerEvent: {}
+[7.666549] (-) TimerEvent: {}
+[7.767596] (-) TimerEvent: {}
+[7.868462] (-) TimerEvent: {}
+[7.971094] (-) TimerEvent: {}
+[8.073871] (-) TimerEvent: {}
+[8.178423] (-) TimerEvent: {}
+[8.279271] (-) TimerEvent: {}
+[8.380575] (-) TimerEvent: {}
+[8.482469] (-) TimerEvent: {}
+[8.583137] (-) TimerEvent: {}
+[8.684613] (-) TimerEvent: {}
+[8.789775] (-) TimerEvent: {}
+[8.891973] (-) TimerEvent: {}
+[8.994895] (-) TimerEvent: {}
+[9.095601] (-) TimerEvent: {}
+[9.196081] (-) TimerEvent: {}
+[9.296533] (-) TimerEvent: {}
+[9.369010] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable charge_station\x1b[0m\n'}
+[9.396661] (-) TimerEvent: {}
+[9.501549] (-) TimerEvent: {}
+[9.602164] (-) TimerEvent: {}
+[9.705562] (-) TimerEvent: {}
+[9.806855] (-) TimerEvent: {}
+[9.907364] (-) TimerEvent: {}
+[9.954713] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'[100%] Built target charge_station\n'}
+[9.974612] (cpp_pubsub_custom_msg) CommandEnded: {'returncode': 0}
+[9.981065] (cpp_pubsub_custom_msg) JobProgress: {'identifier': 'cpp_pubsub_custom_msg', 'progress': 'install'}
+[9.995026] (cpp_pubsub_custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg'], 'cwd': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg', 'env': OrderedDict({'TMUX': '/tmp/tmux-501/default,1873,0', 'USER': 'alessandrochinello', 'CXXFLAGS': '-I/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4', 'HOSTNAME': 'MacBook-Air-di-Alessandro-7.local', 'LD_LIBRARY_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '5', 'XDG_CACHE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.cache', 'HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros', 'OLDPWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab', 'TERM_PROGRAM_VERSION': '3.4', 'LDFLAGS': '-L/opt/homebrew/Cellar/opencv/4.11.0_1/lib -L/opt/homebrew/opt/llvm/lib', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'XDG_STATE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/state', 'COLORTERM': 'truecolor', 'LaunchInstanceID': '49BAB325-4A13-4870-AAB0-F2FD33D11C8D', 'container': 'podman', 'CPLUS_INCLUDE_PATH': '/Users/alessandrochinello/Desktop/Unipd/3°ANNO/II SEMESTRE/TESI DI LAUREA TRIENNALE/Thesis Project/include:', 'INFOPATH': '/opt/homebrew/share/info:', 'ROS_DISTRO': 'jazzy', 'TMPDIR': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/', 'COLCON_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install', 'ALACRITTY_SOCKET': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.sock', 'LOGNAME': 'alessandrochinello', 'WINDOWID': '5658133184', '_': '/usr/bin/colcon', 'PKG_CONFIG_PATH': '/opt/homebrew/lib/pkgconfig:', 'ROS_VERSION': '2', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'ALACRITTY_LOG': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/Alacritty-525.log', 'TERM': 'tmux-256color', 'PATH': '/opt/ros/jazzy/bin:/opt/homebrew/bin:/opt/homebrew/opt/llvm/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin', 'COMMAND_MODE': 'unix2003', 'DISTROBOX_HOST_HOME': '/Users/alessandrochinello', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'tmux', 'XDG_CONFIG_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.config', 'XDG_DATA_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/share', 'AMENT_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy', 'CPPFLAGS': '-I/opt/homebrew/opt/llvm/include', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.suDb8diIdo/Listeners', 'SHELL': '/usr/bin/zsh', 'ALACRITTY_WINDOW_ID': '5658133184', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'CONTAINER_ID': 'ubuntu', 'PWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'SECURITYSESSIONID': '186a3', 'XPC_FLAGS': '0x0', 'COLCON': '1', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/interfaces:/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'XPC_SERVICE_NAME': '0'}), 'shell': False}
+[10.007209] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.007982] (-) TimerEvent: {}
+[10.009421] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/lib/cpp_pubsub_custom_msg/robot\n'}
+[10.040007] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/lib/cpp_pubsub_custom_msg/robot" to ""\n'}
+[10.040862] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/lib/cpp_pubsub_custom_msg/charge_station\n'}
+[10.108308] (-) TimerEvent: {}
+[10.143994] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/lib/cpp_pubsub_custom_msg/charge_station" to ""\n'}
+[10.146819] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub_custom_msg\n'}
+[10.150278] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub_custom_msg\n'}
+[10.153758] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/environment/ament_prefix_path.sh\n'}
+[10.155735] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/environment/ament_prefix_path.dsv\n'}
+[10.158062] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/environment/path.sh\n'}
+[10.159940] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/environment/path.dsv\n'}
+[10.162340] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/local_setup.bash\n'}
+[10.165057] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/local_setup.sh\n'}
+[10.168078] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/local_setup.zsh\n'}
+[10.170665] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/local_setup.dsv\n'}
+[10.173345] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/package.dsv\n'}
+[10.176727] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/ament_index/resource_index/packages/cpp_pubsub_custom_msg\n'}
+[10.179679] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/cmake/cpp_pubsub_custom_msgConfig.cmake\n'}
+[10.182016] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/cmake/cpp_pubsub_custom_msgConfig-version.cmake\n'}
+[10.184560] (cpp_pubsub_custom_msg) StdoutLine: {'line': b'-- Installing: /Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/install/cpp_pubsub_custom_msg/share/cpp_pubsub_custom_msg/package.xml\n'}
+[10.189319] (cpp_pubsub_custom_msg) CommandEnded: {'returncode': 0}
+[10.208587] (-) TimerEvent: {}
+[10.247808] (cpp_pubsub_custom_msg) JobEnded: {'identifier': 'cpp_pubsub_custom_msg', 'rc': 0}
+[10.253406] (-) EventReactorShutdown: {}

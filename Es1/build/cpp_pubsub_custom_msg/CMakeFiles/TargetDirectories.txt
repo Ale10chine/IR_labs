@@ -1,0 +1,11 @@
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/uninstall.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/cpp_pubsub_custom_msg_uninstall.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/robot.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/charge_station.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/test.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/edit_cache.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/rebuild_cache.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/list_install_components.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/install.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/install/local.dir
+/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/cpp_pubsub_custom_msg/CMakeFiles/install/strip.dir

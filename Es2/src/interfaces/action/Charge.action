@@ -1,0 +1,11 @@
+# Goal Service Request  
+std_msgs/Header header
+int32 power
+---
+# Result Service Response 
+std_msgs/Header header
+int32 new_battery_level
+---
+# Feedback topic
+std_msgs/Header header
+int32 current_level

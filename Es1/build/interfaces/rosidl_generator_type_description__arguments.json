@@ -1,0 +1,7 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces/rosidl_generator_type_description/interfaces",
+  "idl_tuples": [
+    "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab2/build/interfaces/rosidl_adapter/interfaces:msg/CstmInforobot.idl"
+  ]
+}

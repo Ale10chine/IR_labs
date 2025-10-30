@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_action_interfaces",
+  "non_idl_tuples": [
+    "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/src/custom_action_interfaces:action/Fibonacci.action"
+  ]
+}

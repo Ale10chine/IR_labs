@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000400] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.007696] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.009994] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/install/cpp_pubsub'], 'cwd': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub', 'env': OrderedDict({'TERM_SESSION_ID': '8BD01E72-A414-433E-88E0-33CE6A448AD2', 'USER': 'alessandrochinello', 'CXXFLAGS': '-I/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4', 'HOSTNAME': 'MacBook-Air-di-Alessandro-7.local', 'XDG_CACHE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.cache', 'SHLVL': '4', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros', 'CONDA_SHLVL': '0', 'OLDPWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab', 'TERM_PROGRAM_VERSION': '455.1', 'LDFLAGS': '-L/opt/homebrew/Cellar/opencv/4.11.0_1/lib -L/opt/homebrew/opt/llvm/lib', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'XDG_STATE_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/state', 'container': 'podman', 'LaunchInstanceID': 'D8BF3A83-AC88-4F0C-86B1-72F5866DD58A', 'CPLUS_INCLUDE_PATH': '/Users/alessandrochinello/Desktop/Unipd/3°ANNO/II SEMESTRE/TESI DI LAUREA TRIENNALE/Thesis Project/include:', 'TMPDIR': '/var/folders/g6/xrw9r2nn5p79jv769tvbqxz00000gn/T/', 'INFOPATH': '/opt/homebrew/share/info:', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alessandrochinello', '_': '/usr/bin/colcon', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'PKG_CONFIG_PATH': '/opt/homebrew/lib/pkgconfig:', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/opt/homebrew/bin:/opt/homebrew/opt/llvm/bin:/Users/alessandrochinello/miniconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin', 'DISTROBOX_HOST_HOME': '/Users/alessandrochinello', 'LANG': 'it_IT.UTF-8', 'XDG_DATA_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.local/share', 'XDG_CONFIG_HOME': '/Users/alessandrochinello/distrobox/ubuntu_ros/.config', 'TERM_PROGRAM': 'Apple_Terminal', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'CPPFLAGS': '-I/opt/homebrew/opt/llvm/include', 'CONDA_PYTHON_EXE': '/Users/alessandrochinello/miniconda3/bin/python', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.N0cbg7rDgg/Listeners', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': 'zsh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'CONTAINER_ID': 'ubuntu', 'PWD': '/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab1/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'CONDA_EXE': '/Users/alessandrochinello/miniconda3/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'XPC_FLAGS': '0x0', 'SECURITYSESSIONID': '186a3', 'COLCON': '1', 'XPC_SERVICE_NAME': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.043110] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099739] (-) TimerEvent: {}
+[0.150653] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.203194] (-) TimerEvent: {}
+[0.303992] (-) TimerEvent: {}
+[0.326372] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.404125] (-) TimerEvent: {}
+[0.508965] (-) TimerEvent: {}
+[0.512236] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.530309] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.558522] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.589010] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.609466] (-) TimerEvent: {}
+[0.698333] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.703425] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.709789] (-) TimerEvent: {}
+[0.782882] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.811917] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.812410] (-) TimerEvent: {}
+[0.828978] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.911012] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.912713] (-) TimerEvent: {}
+[0.929862] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.012825] (-) TimerEvent: {}
+[1.038988] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.045928] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.046252] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.046599] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.052973] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.053314] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.056776] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.064397] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.064779] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.066020] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.073814] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.084748] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:27 (add_executable):\n'}
+[1.085236] (cpp_pubsub) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.085638] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.086019] (cpp_pubsub) StderrLine: {'line': b'    src/publisher_member_function.cpp\n'}
+[1.086452] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.086811] (cpp_pubsub) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[1.087200] (cpp_pubsub) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[1.087559] (cpp_pubsub) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[1.087941] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.088278] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[1.089214] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (add_executable):\n'}
+[1.089583] (cpp_pubsub) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.089968] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.090347] (cpp_pubsub) StderrLine: {'line': b'    src/subscriber_member_function.cpp\n'}
+[1.090737] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.091218] (cpp_pubsub) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[1.091772] (cpp_pubsub) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[1.092174] (cpp_pubsub) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[1.092578] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.092952] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[1.093334] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:27 (add_executable):\n'}
+[1.093734] (cpp_pubsub) StderrLine: {'line': b'  No SOURCES given to target: talker\n'}
+[1.094139] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.094537] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[1.094907] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (add_executable):\n'}
+[1.095284] (cpp_pubsub) StderrLine: {'line': b'  No SOURCES given to target: listener\n'}
+[1.095654] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.096061] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[1.096440] (cpp_pubsub) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.098286] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[1.113137] (-) TimerEvent: {}
+[1.117346] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[1.118869] (-) EventReactorShutdown: {}

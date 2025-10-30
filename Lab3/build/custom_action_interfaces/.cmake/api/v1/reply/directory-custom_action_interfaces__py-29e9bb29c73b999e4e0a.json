@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_action_interfaces__py",
+		"source" : "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/build/custom_action_interfaces/custom_action_interfaces__py"
+	}
+}

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-351d51a3ed56970daa34.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "custom_action_interfaces__py",
+					"jsonFile" : "directory-custom_action_interfaces__py-29e9bb29c73b999e4e0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/build/custom_action_interfaces/custom_action_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "custom_action_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_custom_action_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_custom_action_interfaces_egg-e5c7960ef5bd3c319043.json",
+					"name" : "ament_cmake_python_build_custom_action_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_custom_action_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_custom_action_interfaces-4d70b6b998dcd4997f84.json",
+					"name" : "ament_cmake_python_copy_custom_action_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces-e11be0c2a497c2f2c61d.json",
+					"name" : "custom_action_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces__cpp-58316c62aa1001392f17.json",
+					"name" : "custom_action_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "custom_action_interfaces__py::@6e7814dcd6ceff27e658",
+					"jsonFile" : "target-custom_action_interfaces__py-35380e8d96e3f12d0270.json",
+					"name" : "custom_action_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces__rosidl_generator_c-5753a3718ff65358ac4e.json",
+					"name" : "custom_action_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces__rosidl_generator_py-261f8064d683514acc81.json",
+					"name" : "custom_action_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces__rosidl_generator_type_description-5b3a06eed6d3a73b055d.json",
+					"name" : "custom_action_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces__rosidl_typesupport_c-0955a92c04bb3dafca70.json",
+					"name" : "custom_action_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces__rosidl_typesupport_cpp-e9324fd0311cd93e7e0c.json",
+					"name" : "custom_action_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces__rosidl_typesupport_fastrtps_c-2d2f3f3c91eaafcbc7a4.json",
+					"name" : "custom_action_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces__rosidl_typesupport_fastrtps_cpp-1b6fb3fa3ad351ffe627.json",
+					"name" : "custom_action_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces__rosidl_typesupport_introspection_c-82ed791314da5a140dfd.json",
+					"name" : "custom_action_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces__rosidl_typesupport_introspection_cpp-90221b224dde3c17f135.json",
+					"name" : "custom_action_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces_s__rosidl_typesupport_c-2d76c2d4245eacc35adb.json",
+					"name" : "custom_action_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces_s__rosidl_typesupport_fastrtps_c-bd1e02a60a6336aab704.json",
+					"name" : "custom_action_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces_s__rosidl_typesupport_introspection_c-fe29aa46763530d7b845.json",
+					"name" : "custom_action_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_interfaces_uninstall-79ae533ec7c456b288a3.json",
+					"name" : "custom_action_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9539fd6035e60abdddc4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/build/custom_action_interfaces",
+		"source" : "/Users/alessandrochinello/distrobox/ubuntu_ros/lab/Lab3/src/custom_action_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
