@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(learning_tf2_cpp)
+project(tf2_ex3_cpp)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -7,10 +7,23 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(geometry_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+
+# Add executable
+add_executable(path_tracker_listener src/path_tracker_listener.cpp)
+
+# (link dependencies)
+ament_target_dependencies(path_tracker_listener rclcpp tf2_ros nav_msgs geometry_msgs)
+
+# Install the executable
+install(TARGETS
+  path_tracker_listener
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
