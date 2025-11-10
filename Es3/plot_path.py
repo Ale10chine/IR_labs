@@ -3,73 +3,111 @@ import matplotlib.pyplot as plt
 import math
 import os
 
-# Nome del file CSV salvato dal nodo C++
-CSV_FILE = "vc_path_projected.csv"
+# Names of the file .csv saved in the listener node (path_tracker_listener.cpp)
+CSV_FILE_FLOOR = "vc_to_floor_path_projected.csv"
+CSV_FILE_WRC = "vc_to_cs_path_projected.csv"
 
-def plot_vc_path():
+def plot_global_path(df_floor):
     """
-    Carica i dati del percorso dal CSV, calcola la distanza finale 
-    e traccia il percorso, la posizione finale del VC e la CS.
+    plot of VC and CS w.r.t floor_frame
     """
-    if not os.path.exists(CSV_FILE):
-        print(f"Errore: File '{CSV_FILE}' non trovato.")
-        print("Assicurati che il nodo C++ ('path_tracker_listener') sia stato eseguito e terminato (Ctrl+C) per salvare il file.")
+    if df_floor.empty:
+        print("Error, data are empty")
         return
 
-    # Carica i dati
-    df = pd.read_csv(CSV_FILE)
+    # Extraction of the position w.r.t floor
+    final_vc_x = df_floor['x'].iloc[-1]
+    final_vc_y = df_floor['y'].iloc[-1]
+    cs_x = df_floor['cs_x'].iloc[0]
+    cs_y = df_floor['cs_y'].iloc[0]
 
-    # Verifica se ci sono dati validi
-    if df.empty:
-        print("Errore: Il file CSV è vuoto.")
-        return
-
-    # --- 1. Estrarre le Posizioni ---
-    
-    # Posizione finale del VC (ultima riga del DataFrame)
-    final_vc_x = df['x'].iloc[-1]
-    final_vc_y = df['y'].iloc[-1]
-
-    # Posizione della CS (prendiamo la prima riga, dato che la CS è fissa rispetto al pavimento)
-    cs_x = df['cs_x'].iloc[0]
-    cs_y = df['cs_y'].iloc[0]
-
-    # --- 2. Calcolo della Distanza Finale (Domanda: How far is it now?) ---
+    # Computation of final distance
     distance = math.sqrt((final_vc_x - cs_x)**2 + (final_vc_y - cs_y)**2)
     
-    # --- 3. Plotting ---
+    # --- Global path plot ---
     plt.figure(figsize=(10, 8))
-    
-    # Traccia il percorso completo del VC (rispetto al pavimento tag36h11:0)
-    plt.plot(df['x'], df['y'], 
-             label='VC Path (Projected on tag36h11:0)', 
+    plt.plot(df_floor['x'], df_floor['y'], 
+             label='VC Path and CS w.r.t Floor frame', 
              color='blue', linewidth=1.5, alpha=0.7)
-    
-    # Evidenzia la posizione finale del VC (Robot)
-    plt.scatter(final_vc_x, final_vc_y, 
-                color='red', s=150, zorder=5, 
-                label='VC Final Position', marker='o')
-    
-    # Evidenzia la posizione della CS (Charging Station)
     plt.scatter(cs_x, cs_y, 
                 color='green', s=200, marker='s', zorder=5, 
-                label='CS Position (tag36h11:1)')
+                label='CS Position (reference)')
+    plt.scatter(final_vc_x, final_vc_y, 
+                color='red', s=150, zorder=5, 
+                label='VC Final Position')
     
-    # Linea che collega la posizione finale del VC alla CS
     plt.plot([final_vc_x, cs_x], [final_vc_y, cs_y], 
              'k--', linewidth=1, alpha=0.6, 
              label=f'Final Distance: {distance:.3f} m')
 
-    # Aggiungi etichette e titolo
-    plt.title(f'Percorso del Robot (VC) rispetto al Pavimento (tag36h11:0)')
-    plt.xlabel('X (metri)')
-    plt.ylabel('Y (metri)')
+    plt.title(f'1. path of vc and cs w.r.t floor_frame (tag36h11:0)')
+    plt.xlabel('X (meters)')
+    plt.ylabel('Y (meters)')
     plt.legend(loc='best')
-    plt.axis('equal') # Assicura che la scala X e Y sia la stessa
+    plt.axis('equal')
     plt.grid(True)
-    plt.show()
+
+
+def plot_relative_path(df_wrc):
+    """
+    plot of VC w.r.t CS 
+    """
+    if df_wrc.empty:
+        print("Error: data of csv2 are empty ")
+        return
+
+    # the origin here is the c.s reference frame itself
+    final_vc_x_rel = df_wrc['x'].iloc[-1]
+    final_vc_y_rel = df_wrc['y'].iloc[-1]
+    
+    # --- Relative path plot ---
+    plt.figure(figsize=(10, 8))
+    plt.plot(df_wrc['x'], df_wrc['y'], 
+             label='VC Path w.r.t CS frame', 
+             color='purple', linewidth=1.5, alpha=0.7)
+    plt.scatter(0, 0, 
+                color='green', s=200, marker='s', zorder=5, 
+                label='CS Position (reference)')
+    plt.scatter(final_vc_x_rel, final_vc_y_rel, 
+                color='red', s=150, zorder=5, 
+                label='VC Final Position')
+    
+    # Final distance computation
+    distance_check = math.sqrt(final_vc_x_rel**2 + final_vc_y_rel**2)
+
+    plt.plot([final_vc_x_rel, 0], [final_vc_y_rel, 0], 
+             'k--', linewidth=1, alpha=0.6, 
+             label=f'Final Distance: {distance_check:.3f} m')
+
+
+    plt.title(f'2. path of vc w.r.t cs_frame (tag36h11:1)')
+    plt.xlabel('distance X from cs (meters)')
+    plt.ylabel('sitance Y from CS (meters)')
+    plt.legend(loc='best')
+    plt.axis('equal')
+    plt.grid(True)
+
+
+def main_plotter():
+    """ Load the files and call the plotter functions """
+    
+    # Load of the global path (w.r.t floor frame)
+    if not os.path.exists(CSV_FILE_FLOOR):
+        print(f"Error: global file csv '{CSV_FILE_FLOOR}' not founded")
+        return
+    df_floor = pd.read_csv(CSV_FILE_FLOOR)    
+    # Load of the relative path (w.r.t cs_frame)
+    if not os.path.exists(CSV_FILE_WRC):
+        print(f"Error: relative file csv '{CSV_FILE_WRC}' not founded")
+        return
+    df_wrc = pd.read_csv(CSV_FILE_WRC)
+
+    # Plot of the csv1 of the global path
+    plot_global_path(df_floor)
+    # Plot of the csv1 of the relative path
+    plot_relative_path(df_wrc)
+    plt.show() # show all the plot
+
 
 if __name__ == '__main__':
-    # Assicurati di avere installato pandas e matplotlib:
-    # pip install pandas matplotlib
-    plot_vc_path()
+    main_plotter()
