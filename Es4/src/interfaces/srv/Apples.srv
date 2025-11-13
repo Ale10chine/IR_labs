@@ -1,0 +1,6 @@
+# Request
+int32 curr_apples
+int32 burrow_size
+---
+# Response
+bool response

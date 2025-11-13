@@ -33,3 +33,7 @@ int main(int argc, char **argv)
     
     rclcpp::shutdown();
 }
+// Note the fact that here we are using only 2 main function (one in the server and one in the client)
+// to implement the service mechanism, this was not done in the tutorial of topics and actions,this because
+// Service can be implemented in a more easy way, the others two neccesarely must have callbacks or timer to implment 
+// all the architecthure of communication
