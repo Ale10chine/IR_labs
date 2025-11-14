@@ -143,7 +143,6 @@ private:
                     // found the end of the cluster
                     if (std::abs(r_i - r_j) > threshold && r_i < r_j)
                     {
-                        // filter: an apple could have maximum 1 points
 
                         min_indexes.push_back(min_index);
                         clusters.push_back(cluster); // Push the cluster inside the other clusters (which is a vector)

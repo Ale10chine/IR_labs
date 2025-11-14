@@ -1,17 +1,16 @@
-# Logic of the service
 
-We have 2 nodes, one for the client and one for the server which directly implementd the service
+# Logic of the Service and package for the robot with LiDAR sensor
+
+We have 2 nodes, one for the client and one for the server, which directly implements the service.
 
 ### `burrow_client`
-In the `burrow_client` we simply randomly generate n (:= the number of current apples present in the
-burrow) and s (:=the maximum capability of the burrow). The client send a request to the server with
-its status where the difference between s - n indicates the necessity from the burrow to understand
-whther the robot can fill this lack.
+In the `burrow_client`, we simply randomly generate $n$ ($:=$ the number of current apples present in the burrow) and $s$ ($:=$ the maximum capacity of the burrow). The client sends a request to the server with its status, where the difference $s - n$ indicates the necessity from the burrow to understand whether the robot can fill this lack.
 
 ### `robot_server`
-In the `robot_server` there are 2 main function, 1 for manage the request of the clients and 1 for 
-process data recived from the LiDAR in order to be able to make clustering on it to detect
-the apples in proximity of the robot. If the number of apples are enough the server respond to the client with a true boolean since it can satisfy the request, otherwise with a false boolean.
+In the `robot_server`, there are 2 main functions: 1 for managing the requests of the clients and 1 for processing data received from the LiDAR in order to be able to perform clustering to detect the apples in proximity of the robot. If the number of apples is enough, the server responds to the client with a true boolean, since it can satisfy the request, otherwise with a false boolean.
 
-### Processing of LiDAR msgs and detection of the r.f of the apples expressed w.r.t *base_link*
-The tricky part is on the last fucntion cited, in which happens the real processing of LiDAR msgs:
+### Processing of LiDAR messages and detection of the r.f. of the apples expressed w.r.t. *base_link*
+The tricky part is the last function cited, in which the real processing of LiDAR messages happens. Inside the function `process_lidar_data_callback()`, we first parse the data of the LiDAR messages to retrieve the distances of each point of the 2D point cloud. Then, through a custom clustering algorithm based on a simple principle, it is possible to detect near objects and walls that are surrounding the robot.
+The clustering is done directly on the raw data of the distances of the points: when we find patterns of discontinuity, it is possible to understand if something of tiny dimension is near to the robot. From this clustering, it is then possible to further process the clusters obtained in order to place the r.f. into each object detected. To do so, we select the nearest point of the cluster to the LiDAR r.f., and through some trigonometry processing, it is possible to individuate the $X, Y$ coordinate w.r.t. `base_scan`, maintaining the same orientation and setting $Z = 0$, since the points are placed on the $XY$ plane of the LiDAR. At the end, through the `tf2` library, it is possible to express these r.frames w.r.t. `base_link`, and sending them on the `/apples` topic, it is therefore possible to visualize them in real time on Rviz2.
+
+The clustering approach used is robust for this kind of application, in which we were asked to only detect objects that surround our robot. Clearly, more sophisticated approaches, such as computer vision based ones, could be more adaptive to other types of solutions, for example, in circumstances where the robot is moving in the environment.
