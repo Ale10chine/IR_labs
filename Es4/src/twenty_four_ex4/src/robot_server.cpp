@@ -148,7 +148,7 @@ private:
                         clusters.push_back(cluster); // Push the cluster inside the other clusters (which is a vector)
 
                         i = j;
-                        break; // exit from while
+                        break; 
                     }
 
                     j++;
