@@ -23,25 +23,10 @@ public:
         auto request = std::make_shared<nav2_msgs::srv::ManageLifecycleNodes::Request>();
         // Set request->command as needed
         request->command = 0; // startup nav2 
-        
-        RCLCPP_INFO(get_logger(), "Wait for service of navigation");
-        navigation_client_->wait_for_service();
-        
-        auto result_future = navigation_client_->async_send_request(request);
-        if (rclcpp::spin_until_future_complete(shared_from_this(), result_future) ==
-            rclcpp::FutureReturnCode::SUCCESS)
-        {
-            RCLCPP_INFO(get_logger(), "Service call of navigation completed");
-        }
-        else
-        {
-            RCLCPP_ERROR(get_logger(), "Service call of navigation failed");
-        }
-
 
         RCLCPP_INFO(get_logger(), "Wait for service of localization");
         localization_client_->wait_for_service();
-        result_future = localization_client_->async_send_request(request);
+        auto result_future = localization_client_->async_send_request(request);
         if (rclcpp::spin_until_future_complete(shared_from_this(), result_future) ==
             rclcpp::FutureReturnCode::SUCCESS)
         {
@@ -50,6 +35,20 @@ public:
         else
         {
             RCLCPP_ERROR(get_logger(), "Service call of localization failed");
+        }
+
+        RCLCPP_INFO(get_logger(), "Wait for service of navigation");
+        navigation_client_->wait_for_service();
+        
+        result_future = navigation_client_->async_send_request(request);
+        if (rclcpp::spin_until_future_complete(shared_from_this(), result_future) ==
+            rclcpp::FutureReturnCode::SUCCESS)
+        {
+            RCLCPP_INFO(get_logger(), "Service call of navigation completed");
+        }
+        else
+        {
+            RCLCPP_ERROR(get_logger(), "Service call of navigation failed");
         }
     }
 
@@ -61,6 +60,7 @@ private:
 
     
 };
+
 
 
 // Main function

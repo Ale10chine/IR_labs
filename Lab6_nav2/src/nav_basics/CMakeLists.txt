@@ -12,7 +12,7 @@ find_package(rclcpp REQUIRED)
 find_package(nav2_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rclcpp_action REQUIRED)
-
+#find_package(rclcpp_components REQUIRED)
 
 add_executable(nav_node src/nav_node.cpp)
 ament_target_dependencies(nav_node rclcpp nav2_msgs geometry_msgs rclcpp_action)
@@ -20,8 +20,11 @@ ament_target_dependencies(nav_node rclcpp nav2_msgs geometry_msgs rclcpp_action)
 add_executable(lifecycle_nodes_client src/lifecycle_nodes_client.cpp)
 ament_target_dependencies(lifecycle_nodes_client rclcpp nav2_msgs geometry_msgs )
 
+
+
 add_executable(nav2_action_client src/nav2_action_client.cpp)
-ament_target_dependencies(nav2_action_client rclcpp nav2_msgs rclcpp_action)
+ament_target_dependencies(nav2_action_client rclcpp nav2_msgs rclcpp_action )
+
 
 install(TARGETS
     nav_node
